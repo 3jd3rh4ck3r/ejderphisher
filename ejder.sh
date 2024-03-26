@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Python dosyalarının bulunduğu dizini belirtin
-python_dir="/data/data/com.termux/files/home/storage/downloads/ejderphisher"
+python_dir="BU ALAN ÇOK ÖNEMLİDİR VE PYTHON DOSYALARIN YOLUNU BURAYA YAZIN ÇALİSİR"
 
 # Python dosyalarını bul ve listele
 python_files=($(ls -v "$python_dir"/*.py))
