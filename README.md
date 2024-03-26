@@ -4,6 +4,7 @@ bir kurulacak olan paketler
 
 
 Kali Linux, Debian ve Ubuntu 
+Ayrıca Windowsta wsl kali linuxta çalışır
 sudo apt updata 
 sudo apt upgrade -y 
 sudo apt install  python3 
