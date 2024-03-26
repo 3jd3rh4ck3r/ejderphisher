@@ -35,7 +35,7 @@ done
 
 # Kullanıcıdan seçim al
 echo toollu kapatmak için bire basın
-read -p "Seçiminizi girin (1-7): " choice
+read -p "Seçiminizi girin (1-8): " choice
 
 # Seçilen dosyayı çalıştır
 selected_file="${python_files[$((choice-1))]}"
