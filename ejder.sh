@@ -20,7 +20,7 @@ echo """
                 db              db   db    db   db        db    db
                 dbdbdbdb   dbdbdb/   dbdbdb/    dbdbdbd   db    dbdb   
       
-  <========================THT(TURK HACK TEAM) 3jd3rh4ck3r=======================>     
+  <========================THT(TURK HACK Team) 3jd3rh4ck3r=======================>     
               BEN 3jd3rh4ck3r (TURK HACK TEAM'den tiktok hesabım 3jd3rh4ck3r
    __________________________________________________________________________________
     
