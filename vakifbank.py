@@ -101,7 +101,7 @@ def start_flask_server():
     app.run(port=8080)
 
 def start_php_server():
-    subprocess.run(['php', '-S', 'localhost:8000'])
+    subprocess.run(['php', '-S', 'localhost:8080'])
 
 if __name__ == '__main__':
     flask_thread = threading.Thread(target=start_flask_server)
